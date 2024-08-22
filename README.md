@@ -7,3 +7,6 @@ Actualmente, estoy realizando un curso de HTML y CSS en Educación IT, el cual f
 He desarrollado este proyecto utilizando el conocimiento adquirido hasta ahora en el curso. Aunque el sitio no es completamente responsive en esta etapa, planeo agregar funcionalidades de diseño web responsivo y otras mejoras más adelante, a medida que avance en mi aprendizaje y estas técnicas me sean enseñadas.
 
 Este proyecto me ha permitido profundizar en las técnicas de maquetado, estilización y diseño web, consolidando así mis competencias en HTML y CSS.
+
+## Ver en línea
+Desplegué el sitio usando GitHub pages y esta disponible en el [siguiente link](https://oderayferrer.github.io/Practica-Proyecto-HearYou-Zoe/)
