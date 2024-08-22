@@ -137,8 +137,10 @@ line-height: normal;
 }
 
 aside{
-    
+    margin: auto;
     display: flex;
     width: 1350px;
-
+    justify-content:;
+    padding-top: 250px;
+    gap: 40px;
 }
