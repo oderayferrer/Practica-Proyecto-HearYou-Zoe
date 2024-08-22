@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 2928px;
+}
+
+header {
+  width: 1440px;
+  height: 117px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+header nav a {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  color: #303030;
+  font-weight: 700;
+  margin: 32px;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  /* Para permitir posicionamiento del pseudo-elemento */
+}
+
+/* Estilo para el subrayado al pasar el cursor */
+nav a:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  /* Ajusta la distancia del subrayado respecto al texto */
+  width: 100%;
+  height: 2px;
+  /* Grosor del subrayado */
+  background-color: #303030;
+  /* Color del subrayado */
+}
+
+main {
+    padding:198px 0px  0px  0px ;
+  width: 1300px;
+  height: 629px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#izquierda {
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contenido{
+  width: 626px;
+  height: 504px;
+  display: flex;
+  flex-direction: column;
+}
+
+#texto h2 {
+    height: 246px;
+  align-self: stretch;
+  font-size: 72px;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  line-height: 82px;
+  word-wrap: break-word;
+}
+
+#texto p{
+
+}
