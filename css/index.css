@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
 * {
   margin: 0;
@@ -12,7 +10,7 @@ body {
   height: 2928px;
   color: #303030;
 }
-
+/*Header*/
 header {
   width: 1440px;
   height: 117px;
@@ -51,8 +49,32 @@ nav a:hover::after {
   /* Color del subrayado */
 }
 
+header a {
+  text-decoration: none;
+}
+#download {
+  border-radius: 46.957px;
+  border: 1.5px solid #f50;
+  border: 1.5px solid color(display-p3 1 0.3922 0.0235);
+  background: #fff;
+  background: color(display-p3 1 1 1);
+}
+#download p {
+  color: #f50;
+  color: color(display-p3 1 0.3922 0.0235);
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 12px 20px;
+  align-items: center;
+  gap: 7.826px;
+}
+/*Main*/
 main {
-    padding:198px 0px  0px  0px ;
+  padding: 198px 0px 0px 0px;
   width: 1300px;
   height: 629px;
   margin: auto;
@@ -62,13 +84,13 @@ main {
 }
 
 #izquierda {
-    display: flex;
-    width: 1300px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  width: 1300px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#contenido{
+#contenido {
   width: 626px;
   height: 504px;
   display: flex;
@@ -76,7 +98,7 @@ main {
 }
 
 #texto h2 {
-    height: 246px;
+  height: 246px;
   align-self: stretch;
   font-size: 72px;
   font-family: "Space Grotesk";
@@ -85,62 +107,111 @@ main {
   word-wrap: break-word;
 }
 
-#texto p{
-width: 446px;
-padding-top: 24px;
-font-family: 'Inter';
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+#texto p {
+  width: 446px;
+  padding-top: 24px;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 #barrausers {
-    padding-top: 38px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-
-
+  padding-top: 38px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
-#barrausers p{
-    font-family: 'Inter';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
+#barrausers p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
-
 #findsupport {
-
-    padding-top: 48px;
-    width: 478px;
-    height: 52px;
-    display: flex;
-    align-items: center;
-    gap: 42px;
-
+  display: flex;
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  gap: 20px; /* Espacio entre el div y el a (ajusta según sea necesario) */
+  padding: 48px;
+  margin-left: -50px;
 }
-
+#findsupport div {
+  display: flex;
+  width: 285px;
+  padding: 12px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 46.957px;
+  background: #ffaf00;
+  background: color(display-p3 0.955 0.7 0.105);
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 #findsupport a {
-    text-decoration: none;
-    color: #303030;
-    font-family: 'Raleway';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration-line: underline;
+  text-decoration: none; /* Esto elimina la línea de decoración para todos los enlaces dentro de #findsupport */
+  color: #303030;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#findsupport a[href="findsupport.html"] {
+  text-decoration: none; /* este es para sacar el subrayado del findsupport  */
+}
+#findsupport a[href="learnmore.html"] {
+  text-decoration: underline; /*y este es para que el learn more si lo tenga*/
 }
 
-aside{
-    margin: auto;
-    display: flex;
-    width: 1350px;
-    justify-content:;
-    padding-top: 250px;
-    gap: 40px;
+/*#findsupport div{
+   display: flex;
+width: 285px;
+padding: 12px 20px;
+justify-content: space-between;
+align-items: center;
+   border-radius: 46.957px;
+background: #FFAF00;
+background: color(display-p3 0.955 0.7 0.105);
+color: #FFF;
+color: color(display-p3 1 1 1);
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+#findsupport {
+   padding-top: 48px;
+   width: 478px;
+   height: 52px;
+   display: flex;
+   align-items: center;
+   gap: 42px;
+}
+#findsupport a {
+   text-decoration: none;
+   color: #303030;
+   font-family: 'Raleway';
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-decoration-line: underline;
+}*/
+
+aside {
+  margin: auto;
+  display: flex;
+  width: 1350px;
+  justify-content: ;
+  padding-top: 250px;
+  gap: 40px;
 }
