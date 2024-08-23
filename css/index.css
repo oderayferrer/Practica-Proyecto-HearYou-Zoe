@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Inter:wght@100..900&display=swap");
+
 
 * {
   margin: 0;
@@ -58,8 +59,6 @@ header a {
   border: 1.5px solid color(display-p3 1 0.3922 0.0235);
   background: #fff;
   background: color(display-p3 1 1 1);
-}
-#download p {
   color: #f50;
   color: color(display-p3 1 0.3922 0.0235);
   font-family: Raleway;
@@ -72,6 +71,19 @@ header a {
   align-items: center;
   gap: 7.826px;
 }
+/*#download p {
+  color: #f50;
+  color: color(display-p3 1 0.3922 0.0235);
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 12px 20px;
+  align-items: center;
+  gap: 7.826px;
+}*/
 /*Main*/
 main {
   padding: 198px 0px 0px 0px;
@@ -108,6 +120,7 @@ main {
 }
 
 #texto p {
+    color: #303030;
   width: 446px;
   padding-top: 24px;
   font-family: "Inter";
