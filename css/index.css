@@ -70,7 +70,14 @@ header a {
   padding: 12px 20px;
   align-items: center;
   gap: 7.826px;
+  transition: all 0.5s;
+
 }
+#download:hover{
+  color: #fff;
+  background-color: #f50;
+}
+
 /*#download p {
   color: #f50;
   color: color(display-p3 1 0.3922 0.0235);
@@ -167,6 +174,12 @@ main {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  transition: all 0.5s;
+}
+
+#findsupport div:hover{
+  color: #fff;
+  background-color: #ffcd61;
 }
 #findsupport a {
   text-decoration: none; /* Esto elimina la línea de decoración para todos los enlaces dentro de #findsupport */
