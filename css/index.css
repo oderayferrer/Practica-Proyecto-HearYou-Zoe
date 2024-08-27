@@ -181,16 +181,64 @@ main {
 #findsupport a[href="findsupport.html"] {
   text-decoration: none; /* este es para sacar el subrayado del findsupport  */
 }
-#findsupport a[href="learnmore.html"] {
+#findsupport a[href="learnmore.html"]:hover {
   text-decoration: underline; /*y este es para que el learn more si lo tenga*/
 }
 
 
-aside {
+/*aside {
   margin: auto;
   display: flex;
   width: 1350px;
   justify-content: ;
   padding-top: 250px;
   gap: 40px;
+}*/
+aside{
+height: 419px;
+margin: 152px 60px 0 60px;
+display: flex;
+background-color: #eba97c;
+justify-content: center;
+}
+
+aside article{
+  margin: 0 20px 0 20px;
+}
+
+#getready{
+  width: 416px;
+  height: 419px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  border: 5px solid #7CA2EB;
+  border: 5px solid color(display-p3 0.5176 0.6314 0.898);
+  background: #FFF;
+  background: color(display-p3 1 1 1);
+} 
+#getready img{
+  padding: 32px 285.6px ;
+}
+
+
+#startaconversation{
+  width: 416px;
+height: 419px;
+flex-shrink: 0;
+border-radius: 60px;
+border: 5px solid #FA839F;
+border: 5px solid color(display-p3 0.9211 0.5389 0.6238);
+background: #FFF;
+background: color(display-p3 1 1 1);
+}
+
+#feelsupported{
+  width: 416px;
+height: 419px;
+flex-shrink: 0;
+border-radius: 60px;
+border: 5px solid #DE85F1;
+border: 5px solid color(display-p3 0.8217 0.5389 0.9211);
+background: #FEFBFF;
+background: color(display-p3 0.9934 0.9829 0.9971);
 }
