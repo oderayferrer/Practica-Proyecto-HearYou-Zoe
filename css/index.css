@@ -71,19 +71,7 @@ header a {
   align-items: center;
   gap: 7.826px;
 }
-/*#download p {
-  color: #f50;
-  color: color(display-p3 1 0.3922 0.0235);
-  font-family: Raleway;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  display: flex;
-  padding: 12px 20px;
-  align-items: center;
-  gap: 7.826px;
-}*/
+
 /*Main*/
 main {
   padding: 198px 0px 0px 0px;
@@ -180,51 +168,14 @@ main {
 #findsupport a[href="findsupport.html"] {
   text-decoration: none; /* este es para sacar el subrayado del findsupport  */
 }
-#findsupport a[href="learnmore.html"] {
+#findsupport a[href="learnmore.html"]:hover{
   text-decoration: underline; /*y este es para que el learn more si lo tenga*/
 }
-
-/*#findsupport div{
-   display: flex;
-width: 285px;
-padding: 12px 20px;
-justify-content: space-between;
-align-items: center;
-   border-radius: 46.957px;
-background: #FFAF00;
-background: color(display-p3 0.955 0.7 0.105);
-color: #FFF;
-color: color(display-p3 1 1 1);
-font-family: Raleway;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
-#findsupport {
-   padding-top: 48px;
-   width: 478px;
-   height: 52px;
-   display: flex;
-   align-items: center;
-   gap: 42px;
-}
-#findsupport a {
-   text-decoration: none;
-   color: #303030;
-   font-family: 'Raleway';
-   font-size: 24px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: normal;
-   text-decoration-line: underline;
-}*/
 
 aside {
   margin: auto;
   display: flex;
   width: 1350px;
-  justify-content: ;
   padding-top: 250px;
   gap: 40px;
 }
