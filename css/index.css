@@ -206,7 +206,7 @@ aside article{
   margin: 0 20px 0 20px;
 }
 
-#getready{
+/*#cubo1{
   width: 416px;
   height: 419px;
   flex-shrink: 0;
@@ -216,12 +216,42 @@ aside article{
   background: #FFF;
   background: color(display-p3 1 1 1);
 } 
-#getready img{
-  padding: 32px 285.6px ;
+#cubo1 #logocubo1{
+  padding: 32px 285.6px 267.6px 32px;
+}
+#decoracioncubo1{
+  padding: 0px 0px 259px 300px;
+position: absolute;
+right: 0; /* Mueve el elemento al lado derecho de #cubo1 
+
+}*/
+#cubo1 {
+  width: 416px;
+  height: 419px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  border: 5px solid #7CA2EB;
+  background: #FFF;
+  display: flex;
+  flex-direction: column; /* Alinea los elementos uno debajo del otro */
+  justify-content: flex-start; /* Alinea los elementos al principio del contenedor */
+  align-items: center; /* Centra los elementos horizontalmente */
+  position: relative; /* Establece un contexto de posicionamiento para elementos absolutos */
+  overflow: hidden;
+  background-image: url(../img/21.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+#logocubo1 {
+  padding: 32px 285.6px 267.6px 32px;
+  /* Ajusta este padding para posicionar el logotipo según sea necesario */
 }
 
 
-#startaconversation{
+
+
+#cubo2{
   width: 416px;
 height: 419px;
 flex-shrink: 0;
@@ -230,9 +260,20 @@ border: 5px solid #FA839F;
 border: 5px solid color(display-p3 0.9211 0.5389 0.6238);
 background: #FFF;
 background: color(display-p3 1 1 1);
+display: flex;
+flex-direction: column; /* Alinea los elementos uno debajo del otro */
+justify-content: flex-start; /* Alinea los elementos al principio del contenedor */
+align-items: center; /* Centra los elementos horizontalmente */
+position: relative; /* Establece un contexto de posicionamiento para elementos absolutos */
+overflow: hidden;
+}
+#cubo2 #logocubo2{
+  padding: 32px 285.6px 267.6px 32px;
 }
 
-#feelsupported{
+
+
+#cubo3{
   width: 416px;
 height: 419px;
 flex-shrink: 0;
@@ -241,4 +282,13 @@ border: 5px solid #DE85F1;
 border: 5px solid color(display-p3 0.8217 0.5389 0.9211);
 background: #FEFBFF;
 background: color(display-p3 0.9934 0.9829 0.9971);
+display: flex;
+flex-direction: column; /* Alinea los elementos uno debajo del otro */
+justify-content: flex-start; /* Alinea los elementos al principio del contenedor */
+align-items: center; /* Centra los elementos horizontalmente */
+position: relative; /* Establece un contexto de posicionamiento para elementos absolutos */
+overflow: hidden;
+}
+#cubo3 #logocubo3{
+  padding: 32px 285.6px 267.6px 32px;
 }
