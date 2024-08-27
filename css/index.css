@@ -81,6 +81,7 @@ header a {
 
 /*Main*/
 main {
+  max-width: 1440px;
   padding: 198px 0px 0px 0px;
   width: 1300px;
   height: 629px;
@@ -185,110 +186,106 @@ main {
   text-decoration: underline; /*y este es para que el learn more si lo tenga*/
 }
 
-
-/*aside {
-  margin: auto;
+aside {
+  max-width: 1440px;
+  margin: 152px auto 0 auto;
   display: flex;
-  width: 1350px;
-  justify-content: ;
-  padding-top: 250px;
-  gap: 40px;
-}*/
-aside{
-height: 419px;
-margin: 152px 60px 0 60px;
-display: flex;
-background-color: #eba97c;
-justify-content: center;
+  align-items: stretch;
+  justify-content: center;
+
 }
 
-aside article{
-  margin: 0 20px 0 20px;
-}
-
-/*#cubo1{
-  width: 416px;
-  height: 419px;
-  flex-shrink: 0;
+aside article {
+  margin: 0 20px;
+  padding: 53px 36px 44px 36px; /* Padding para el contenido interno */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #FFF; /* Fondo blanco para los artículos */
   border-radius: 60px;
-  border: 5px solid #7CA2EB;
-  border: 5px solid color(display-p3 0.5176 0.6314 0.898);
-  background: #FFF;
-  background: color(display-p3 1 1 1);
-} 
-#cubo1 #logocubo1{
-  padding: 32px 285.6px 267.6px 32px;
-}
-#decoracioncubo1{
-  padding: 0px 0px 259px 300px;
-position: absolute;
-right: 0; /* Mueve el elemento al lado derecho de #cubo1 
+  border: 5px solid; /* Ajusta el borde según el cubo específico */
+  position: relative; /* Permite posicionar elementos hijos de manera absoluta */
+  transition: all 0.5s ease-in-out;
 
-}*/
+}
+aside article:hover{
+  scale: 1.05;
+}
+
+aside article h2,
+aside article p {
+  color: #303030;
+  color: color(display-p3 0.1882 0.1882 0.1882);
+  font-family: Raleway;
+  line-height: normal;
+}
+
+aside article h2 {
+  font-size: 40px;
+  font-weight: 700;
+  
+}
+
+aside article p {
+  margin-top: 14px;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 600;
+}
+
 #cubo1 {
   width: 416px;
-  height: 419px;
-  flex-shrink: 0;
-  border-radius: 60px;
-  border: 5px solid #7CA2EB;
-  background: #FFF;
-  display: flex;
-  flex-direction: column; /* Alinea los elementos uno debajo del otro */
-  justify-content: flex-start; /* Alinea los elementos al principio del contenedor */
-  align-items: center; /* Centra los elementos horizontalmente */
-  position: relative; /* Establece un contexto de posicionamiento para elementos absolutos */
-  overflow: hidden;
+  
   background-image: url(../img/21.png);
   background-position: top right;
   background-repeat: no-repeat;
+  border: 5px solid #7CA2EB;
+
 }
 
-#logocubo1 {
-  padding: 32px 285.6px 267.6px 32px;
-  /* Ajusta este padding para posicionar el logotipo según sea necesario */
+#cubo1:hover{
+  background-color: #C8D5F3;
+  border: 5px solid #C8D5F3;
 }
 
-
-
-
-#cubo2{
+#cubo2 {
   width: 416px;
-height: 419px;
-flex-shrink: 0;
-border-radius: 60px;
-border: 5px solid #FA839F;
-border: 5px solid color(display-p3 0.9211 0.5389 0.6238);
-background: #FFF;
-background: color(display-p3 1 1 1);
-display: flex;
-flex-direction: column; /* Alinea los elementos uno debajo del otro */
-justify-content: flex-start; /* Alinea los elementos al principio del contenedor */
-align-items: center; /* Centra los elementos horizontalmente */
-position: relative; /* Establece un contexto de posicionamiento para elementos absolutos */
-overflow: hidden;
-}
-#cubo2 #logocubo2{
-  padding: 32px 285.6px 267.6px 32px;
+  
+  background-image: url(../img/Vector.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  border: 5px solid #FA839F;
 }
 
+#cubo2:hover{
+  background-color: #F2B3C1;
+  border: 5px solid #F2B3C1;
 
+}
 
-#cubo3{
+#cubo3 {
   width: 416px;
-height: 419px;
-flex-shrink: 0;
-border-radius: 60px;
-border: 5px solid #DE85F1;
-border: 5px solid color(display-p3 0.8217 0.5389 0.9211);
-background: #FEFBFF;
-background: color(display-p3 0.9934 0.9829 0.9971);
-display: flex;
-flex-direction: column; /* Alinea los elementos uno debajo del otro */
-justify-content: flex-start; /* Alinea los elementos al principio del contenedor */
-align-items: center; /* Centra los elementos horizontalmente */
-position: relative; /* Establece un contexto de posicionamiento para elementos absolutos */
-overflow: hidden;
+  
+  background-image: url(../img/18.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  border: 5px solid #DE85F1;
 }
-#cubo3 #logocubo3{
-  padding: 32px 285.6px 267.6px 32px;
+
+#cubo3:hover{
+  background-color: #E2B3F2;
+  border: 5px solid #E2B3F2;
+}
+
+#cubo3 h2{
+  max-width: 220px;
+}
+
+#logocubo1,
+#logocubo2,
+#logocubo3 {
+  margin-bottom: 39px;
+  width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+  height: auto;
+  z-index: 1; /* Asegura que el logo esté encima del contenido */
 }
